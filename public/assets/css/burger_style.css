@@ -1,38 +1,41 @@
-body{
-  background-color: #F9EB1A;
+/*Fonts to Use*/
+/*Headers*/
+  /*font-family: 'Pangolin', cursive;*/
+/*Body Copy*/
+/*font-family: 'Lora', serif;*/
+
+
+body {
+	background: url("/assets/images/ginghamBkg.png");
+	font-family: 'Hind', sans-serif;
 }
 
-li {
-  background: #FAEBD7;
-  margin: 5px;
-  padding: 5px;
+img {
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+  width: 350px;
 }
 
-.label {
-  font-weight: bold;
+#burger_lists {
+  padding: 30px 0px 0px 230px;
 }
 
-.create-update-form {
-  background: #cca300;
-  margin: 5px;
-  padding: 5px;
+#add_burger_box {
+  padding: 10px 0px 0px 400px;
 }
 
-.form-group {
-  margin-bottom: 5px;
+#add_burger {
+  padding: 10px 0px 0px 70px;
 }
 
-.btn-primary{
-  background-color: #996600;
-  border-color: #996600;
+.panel-title {
+  font-family: 'Pangolin', cursive;
+  font-size: 40px;
+  text-align: center;
 }
 
-#devourForm{
-  float: right;
-  width: 20%;
-  text-align: right;
-}
-
-.burgerName{
-  font-size: 1.5em;
+.panel-body {
+  font-family: 'Lora', serif;
+  font-size: 20px;
 }
